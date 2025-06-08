@@ -5,12 +5,14 @@
  * @format
  */
 
-import React from 'react';
+import React, { StrictMode } from 'react';
 
-import MainApp from './src/MainApp';
+import AppContainer from './src/AppContainer';
 
 function App(): React.JSX.Element {
-  return <MainApp />;
+  return <StrictMode>
+    <AppContainer />
+  </StrictMode>
 }
 
 export default App;
