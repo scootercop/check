@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { StatusBar, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { RootStackParamList, RootStackProps } from '../../navigation/NavigatorTypes';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
